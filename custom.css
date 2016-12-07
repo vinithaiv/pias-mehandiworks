@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans|Roboto+Slab|Roboto:400,400i,700');
 body{
 
@@ -46,7 +44,7 @@ h2{
 header .nav
 {
 	padding-top:10px;
-	padding-bottom:10px;
+	padding-bottom:60px;
 	font-size: 20px;
 	
 }
@@ -78,6 +76,7 @@ header nav .nav .active a{
 div.img img {
     width: 250px;
     height:250px;
+    margin-top: 25px;
 }
 img{
 	max-width: 300px;
@@ -149,6 +148,10 @@ div.img img:hover {
 	border-top: 20px solid rgba(255, 102, 26, .5);
 	border-bottom: 20px solid rgba(179, 57, 0, .5);
 	
+}
+#map{
+
+	margin-top: 30px;
 }
 @media only screen
 and (min-width: 450px)

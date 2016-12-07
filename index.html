@@ -5,17 +5,17 @@
 	   <meta charset="utf-8">
 	   <meta name="viewport"content="width=device-width,initial-scale=1.0">
 	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
-	   <link rel="stylesheet" href="custom.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+     <link rel="stylesheet" href="custom.css">
+	   
 
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-     
      <script src="js/prefixfree.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+     
      <script type="text/javascript" src="js/map.js"></script>
-     <script type="text/javascript" src="js/scroll.js"></script>
-
+     
 </head>
 
 <body data-spy="scroll" data-target=".navbar-fixed-top">
@@ -26,7 +26,7 @@
 		    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			      <div class="container-fluid" id="nvb">
                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#example">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -37,7 +37,7 @@
                   <a class="navbar-brand" href="#home"><h1>Pia`s <span class="subhead">Mehandi Works</span></h1></a>
                 </div><!--navbar-header-->
 
-              <div class="collapse navbar-collapse" id="example">
+              <div id="example" class="collapse navbar-collapse">
 			           <ul class="nav navbar-nav  navbar-right">
 			           <li class="active"><a href="#home">Home</a></li>
                  <li><a href="#about">About Us</a></li>
@@ -52,13 +52,14 @@
 
 
 
-  <div id="featured" ></div>
+  
   <div id="myCarousel "class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
                 <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
           </ol>
           <div class="carousel-inner" role="listbox">
                 <div class="item active">
@@ -72,6 +73,9 @@
     	          
                 <div class="item">
                 <img src="images/carousel/c4.jpg" alt="sendoff"></div>
+
+                <div class="item">
+                <img src="images/carousel/c5.jpg" alt="sendoff"></div>
 	        </div>
 
           <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -83,7 +87,7 @@
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
           </a>
-    </div>
+  </div>
 
 
 	<div class="container-fluid page" id="about"><!--About-->
@@ -149,7 +153,7 @@
           </div>
           </div>
     
-      </div><br><br>
+      </div>
 
       <div class="row">
           <div class="col-md-3 col-sm-5 col-xs-12">
@@ -176,7 +180,7 @@
           </div>
           </div>
     
-    </div><br><br>
+    </div>
 
     <div class="row">
           <div class="col-md-3 col-sm-5 col-xs-12">
@@ -203,7 +207,7 @@
           </div>
           </div>
     
-    </div><br><br>
+    </div>
 
     <div class="row">
           <div class="col-md-3 col-sm-5 col-xs-12">
@@ -224,7 +228,7 @@
           </div>
           </div>
        
-    </div><br><br>
+    </div>
 
     </div>
 
@@ -248,9 +252,10 @@
           </div>
           
           <div class="col-sm-7">
+            <b>Locate us in the map below</b>
                <div id="map" style="width:100%;height:500px"></div>
                
-               <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+               <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRPfZ94GLv17Bt9_tfpOq2Z1Eub6WvMew&callback=myMap"></script>
           </div>
     </div>
     </div><!--contactus container-->

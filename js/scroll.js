@@ -1,5 +1,5 @@
 //Use smooth scrolling when clicking on navigation
-  $('#nvb a[href*=#]:not([href=#])').click(function() 
+  $('.navbar a[href*=#]:not([href=#])').click(function() 
   {
     if (location.pathname.replace(/^\//,'') === 
       
