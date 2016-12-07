@@ -64,6 +64,7 @@ header nav .nav .active a{
 	border-bottom:5px solid orange;
 	border-radius: 5px;
 	}
+
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 100%;
@@ -168,16 +169,16 @@ and (max-width: 450px){
 
 @media only screen and (max-width: 376px) {
     .service img {
-      width: 150px;
-      height: 100px;
+      width: 180px;
+      height: 130px;
     }
 }
 
 
 
-    div.img img {
+    
 @media only screen and (max-width: 1100px) {
-      width: 230px;
+     div.img img { width: 230px;
       height: 230px;
       margin:10% 0 10% 10%;
     }
@@ -185,7 +186,7 @@ and (max-width: 450px){
 
 
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 376px) {
     div.img img {
       width: 150px;
       height: 150px;
