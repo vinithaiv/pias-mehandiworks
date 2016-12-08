@@ -66,7 +66,7 @@ header nav .nav .active a{
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 100%;
-      height: 600px;
+      height: 700px;
       margin: auto;
   }
 
@@ -194,8 +194,13 @@ and (max-width: 450px){
       width: 150px;
       height: 150px;
       margin-top:15%;
-
+}
     }
+    @media only screen and (max-width: 376px) {
+    carousel-inner > .item > img {
+      height: 150px;
+     }
+
 }
 @media only screen and (max-width: 330px) {
     #gallery {
