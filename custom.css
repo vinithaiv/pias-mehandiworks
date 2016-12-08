@@ -63,8 +63,8 @@ header nav .nav .active a{
 	border-radius: 5px;
 	}
 
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
+.carousel-inner .item img
+  {
       width: 100%;
       height: 700px;
       margin: auto;
@@ -186,6 +186,13 @@ and (max-width: 450px){
       margin:10% 0 10% 10%;
     }
 }
+@media only screen and (max-width: 376px) {
+
+.carousel-inner .item img
+  {
+      height: 400px;
+  }
+}
 
 
 
@@ -197,7 +204,7 @@ and (max-width: 450px){
 }
     }
     @media only screen and (max-width: 376px) {
-    carousel-inner > .item > img {
+     .item img {
       height: 150px;
      }
 
