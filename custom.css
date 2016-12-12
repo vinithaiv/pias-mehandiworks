@@ -62,7 +62,10 @@ header nav .nav .active a{
 	border-bottom:5px solid orange;
 	border-radius: 5px;
 	}
-
+.carousel-inner h3{
+	text-align: center;
+	padding-bottom: 10px;
+}
 .carousel-inner .item img
   {
       width: 100%;

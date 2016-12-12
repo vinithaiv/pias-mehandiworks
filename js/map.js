@@ -9,4 +9,20 @@ function myMap() {
   });
   marker.setMap(map);}
 
- 
+ $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
+
+ $(function(){
+
+        $('.carousel-control').click(function(e){
+            e.preventDefault();
+            $('#myCarousel').carousel( $(this).data() );
+        });
+
+    });
+ $('.carousel').carousel({
+  interval: 30
+});
